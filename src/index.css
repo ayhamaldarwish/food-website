@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+  @theme {
+    --color-primary: #ffc001;
+    --color-secondery :#ff9c01
+  }
+
+  @utility container {
+    margin-inline : auto;
+    padding-inline : 2rem;
+  }
+  @keyfraes spin {
+    from{
+    transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+.spin {
+  animation: spin 40s linear infinite;
+}
